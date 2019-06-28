@@ -5,7 +5,6 @@ var body = document.getElementById("gradient");
 
 
 // for background to match examples on page load -
-
 function beginGradient(gradientOne, gradientTwo) {
     var gradientOne = "#00ff00";
     var gradientTwo = "#ff0000";
@@ -24,7 +23,6 @@ window.addEventListener("load", beginGradient());
 
 
 // to change background with input -
-
 function setGradient() {
     body.style.background =
     "linear-gradient(to right, "
@@ -40,4 +38,4 @@ color1.addEventListener("input", setGradient);
 
 color2.addEventListener("input", setGradient);
 
-// to do - use math random + math floor for generator button
+// math random + math floor for generator button(?)
