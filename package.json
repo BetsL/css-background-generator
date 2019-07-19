@@ -1,0 +1,22 @@
+{
+  "name": "css-background-generator",
+  "version": "1.0.0",
+  "description": "A background color generator for a future project. Up next, Math.floor + Math.random ...",
+  "main": "script.js",
+  "scripts": {
+    "build": "browserify script.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BetsL/css-background-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BetsL/css-background-generator/issues"
+  },
+  "homepage": "https://github.com/BetsL/css-background-generator#readme",
+  "dependencies": {
+    "lodash": "^4.17.14"
+  }
+}
